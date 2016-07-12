@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/google/prebuilt/app/Phonesky.apk:system/app/Phonesky.apk \
-    vendor/google/prebuilt/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/google/prebuilt/app/TalkBack.apk:system/app/TalkBack.apk \
     vendor/google/prebuilt/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk
