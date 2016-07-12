@@ -15,31 +15,30 @@
 # Addon Scripts
     vendor/google/prebuilt/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh
 
-# Common Applications
-PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/prebuilt/app/ConfigUpdater.apk:system/app/ConfigUpdater.apk \
-    vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
-    vendor/google/prebuilt/app/GmsCore.apk:system/app/GmsCoe.apk \
-    vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
-    vendor/google/prebuilt/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
-    vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-    vendor/google/prebuilt/app/GoogleEars.apk:system/app/GoogleEars.apk \
-    vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-    vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-    vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-    vendor/google/prebuilt/app/GooglePlus.apk:system/app/GooglePlus.apk \
-    vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-    vendor/google/prebuilt/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
-    vendor/google/prebuilt/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-    vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
-    vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-    vendor/google/prebuilt/app/Phonesky.apk:system/app/Phonesky.apk \
-    vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
-    vendor/google/prebuilt/app/TalkBack.apk:system/app/TalkBack.apk \
-    vendor/google/prebuilt/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk
+PRODUCT_PACKAGES += \
+    ChromeBookmarksSyncAdapter.apk \
+    ConfigUpdater.apk \
+    GenieWidget.apk \
+    Gmail.apk \
+    GmsCore.apk \
+    GoogleBackupTransport.apk \
+    GoogleCalendarSyncAdapter \
+    GoogleContactsSyncAdapter.apk \
+    GoogleEars.apk \
+    GoogleFeedback.apk \
+    GoogleLoginService.apk \
+    GooglePartnerSetup.apk \
+    GooglePlus.apk \
+    GoogleServicesFramework.apk \
+    GoogleTTS.apk \
+    LatinImeDictionaryPack.apk \
+    MediaUploader.apk \
+    NetworkLocation.apk \
+    OneTimeInitializer.apk \
+    Phonesky.apk \
+    SetupWizard.apk \
+    TalkBack.apk \
+    VoiceSearchStub.apk
 
 # Common Permissions
 PRODUCT_COPY_FILES += \
