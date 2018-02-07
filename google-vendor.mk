@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     NetworkLocation.apk \
     OneTimeInitializer.apk \
     Phonesky.apk \
+    QuickSearchBox.apk \
     SetupWizard.apk \
     TalkBack.apk \
     VoiceSearchStub.apk
