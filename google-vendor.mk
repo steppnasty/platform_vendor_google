@@ -86,17 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so \
     vendor/google/prebuilt/lib/libwebp_android.so:system/lib/libwebp_android.so
 
-# Common TTS
-PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/tts/lang_pico/de-DE_gl0_sg.bin:system/tts/lang_pico/de-DE_gl0_sg.bin \
-    vendor/google/prebuilt/tts/lang_pico/de-DE_ta.bin:system/tts/lang_pico/de-DE_ta.bin.bin \
-    vendor/google/prebuilt/tts/lang_pico/es-ES_ta.bin:system/tts/lang_pico/es-ES_ta.bin \
-    vendor/google/prebuilt/tts/lang_pico/es-ES_zl0_sg.bin:system/tts/lang_pico/es-ES_zl0_sg.bin \
-    vendor/google/prebuilt/tts/lang_pico/fr-FR_nk0_sg.bin:system/tts/lang_pico/fr-FR_nk0_sg.bin \
-    vendor/google/prebuilt/tts/lang_pico/fr-FR_ta.bin:system/tts/lang_pico/fr-FR_ta.bin \
-    vendor/google/prebuilt/tts/lang_pico/it-IT_cm0_sg.bin:system/tts/lang_pico/it-IT_cm0_sg.bin \
-    vendor/google/prebuilt/tts/lang_pico/it-IT_ta.bin:system/tts/lang_pico/it-IT_ta.bin
-
 # Common srec
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/usr/srec/en-US/acoustic_model:system/usr/srec/en-US/acoustic_model \
