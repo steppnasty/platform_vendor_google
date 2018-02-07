@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     Gmail.apk \
     GmsCore.apk \
     GoogleBackupTransport.apk \
-    GoogleCalendarSyncAdapter \
+    GoogleCalendarSyncAdapter.apk \
     GoogleContactsSyncAdapter.apk \
     GoogleEars.apk \
     GoogleFeedback.apk \
